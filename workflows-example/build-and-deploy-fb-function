@@ -1,4 +1,4 @@
-name: Dev
+name: Build and deploy fb function
 'on':
   push:
     branches: main
