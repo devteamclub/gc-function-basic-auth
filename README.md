@@ -97,6 +97,6 @@ To make a function public:
 
 - In the Add members field, `allUsers`
 
-- Select the `Cloud Run Invoker` role from the Select a role drop-down menu.
+- Select the `Cloud Functions Invoker` role from the Select a role drop-down menu.
 
 - Click Add.
