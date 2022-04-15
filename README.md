@@ -63,7 +63,7 @@ Name and runtime are required
 ```
 
 
-Example: https://github.com/devteamclub/gc-function-basic-auth/blob/master/workflows-example/build-and-deploy-fb-function
+Example: https://github.com/devteamclub/gc-function-basic-auth/blob/master/workflows-example/build-and-deploy-fb-function.yml
 
 
 ## Step 5
