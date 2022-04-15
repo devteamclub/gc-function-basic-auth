@@ -80,3 +80,23 @@ Rewrite all calls to basic auth function
     "function": "yourFunctionName"
   },
 ]
+```
+
+## Step 6
+### Allow unauthenticated requests
+
+A Cloud Functions product recommendation is that CI/CD systems not set or change settings for allowing unauthenticated invocations. New deployments are automatically private services, while deploying a revision of a public (unauthenticated) service will preserve the IAM setting of public (unauthenticated).
+
+To make a function public:
+
+- Go to Google Cloud Console https://console.cloud.google.com/functions
+
+- Select the function you want to make public.
+
+- Click Show Info Panel in the top right corner to show the `Permissions` tab.
+
+- In the Add members field, `allUsers`
+
+- Select the `Cloud Run Invoker` role from the Select a role drop-down menu.
+
+- Click Add.
