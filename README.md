@@ -60,6 +60,8 @@ Name and runtime are required
          description: 'Basic auth function'
          source_dir: 'functions'
          env_vars: 'USERNAME=${{ secrets.BASIC_AUTH_USERNAME }},PASSWORD=${{ secrets.BASIC_AUTH_PASSWORD }}'
+         ingress_settings: 'ALLOW_ALL' #Allow all requests
+         entry_point: 'basicAuth'
 ```
 
 
